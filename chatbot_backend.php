@@ -31,7 +31,7 @@ if (!empty($_FILES["file"]) && $_FILES["file"]["error"] === 0) {
 }
 
 // API call to Gemini
-$apiKey = "AIzaSyCNYJRu3xo8X30iHeOm1q7JB9jjdMnStt0";
+$apiKey = 
 $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" . $apiKey;
 
 $data = [
